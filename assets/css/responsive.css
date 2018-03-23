@@ -51,7 +51,7 @@
     font-size: 16px;
   }
   #clients img {
-    margin-left: 24px;
+    margin: 24px;
   }
   #contact .contact-form .controls input.contact_input {
     width: 80%;
