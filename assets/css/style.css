@@ -198,6 +198,7 @@ img {
   position: relative;
   border: 1px solid #f95e11;
   margin-bottom: 48px;
+  /*height: 60%;*/
 }
 #services .content {
   color: #ffffff;
@@ -205,6 +206,7 @@ img {
   background: #f95e11;
   border: 4px solid #ffffff;
   padding: 10px 14px;
+  height: 380px;
 }
 #services .content h2 {
   font-size: 20px;
@@ -214,6 +216,16 @@ img {
 #services .content p {
   line-height: 22px;
   font-weight: 300;
+}
+@media (max-width: 767px) and (min-width: 650px) {
+#services .content{
+  color: #ffffff;
+  text-align: center;
+  background: #f95e11;
+  border: 4px solid #ffffff;
+  padding: 10px 14px;
+  height: 200px;
+}
 }
 #services .icon-wrapper {
   background: #ffffff;
