@@ -39,20 +39,36 @@ a:focus {
 img {
   max-width: 100%;
 }
-.row {
-  padding-bottom: 70px;
-}
 .section-title {
   text-align: center;
   text-transform: uppercase;
   color: #f95e11;
   font-size: 50px;
   font-weight: 700;
-  padding: 48px 20px;
+  margin: 20px 0 50px;
+  /*padding: 20px 20px;*/
 }
-.section-title span {
+.redes{
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px 0;
+  /*padding: 20px 20px;*/
+}
+.section-title .redes span {
   color: #333;
 }
+/*@media (min-width: 761px) {
+  .moverA {
+    margin-left: 50%;
+  }
+  .moverB{
+    margin-right: 50%;
+  }
+}*/
+
 ::selection {
   background: #f95e11;
   color: #fff;
@@ -198,6 +214,7 @@ img {
   position: relative;
   border: 1px solid #f95e11;
   margin-bottom: 48px;
+  /*height: 60%;*/
 }
 #services .content {
   color: #ffffff;
@@ -205,6 +222,7 @@ img {
   background: #f95e11;
   border: 4px solid #ffffff;
   padding: 10px 14px;
+  height: 380px;
 }
 #services .content h2 {
   font-size: 20px;
@@ -214,6 +232,16 @@ img {
 #services .content p {
   line-height: 22px;
   font-weight: 300;
+}
+@media (max-width: 767px) and (min-width: 650px) {
+#services .content{
+  color: #ffffff;
+  text-align: center;
+  background: #f95e11;
+  border: 4px solid #ffffff;
+  padding: 10px 14px;
+  height: 200px;
+}
 }
 #services .icon-wrapper {
   background: #ffffff;
@@ -912,11 +940,14 @@ img {
   width: 100%;
   margin: 20px 0;
 }
+.cliente{
+  margin:10px 0;
+}
 #clients {
   background-color: #fff;
   width: 100%;
-  height: 98px;
-  padding: 24px;
+  height: 2%;
+  text-align: center;
 }
 #connected {
   background-color: #f95e11;
@@ -924,7 +955,7 @@ img {
   color: #ffffff;
   text-align: center;
 }
-#connected .section-title {
+#connected .section-title{
   color: #ffffff;
 }
 #connected .discription {
