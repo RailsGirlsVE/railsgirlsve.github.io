@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Yesteryear);
 body {
   background: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -188,6 +188,10 @@ img {
     background: transparent;
 }
 
+#philosophy {
+  margin: 70px 100px;
+}
+
 #intro {
   /*background: url("../img/background/bg-intro.jpg") center center no-repeat;*/
   background-size: cover;
@@ -203,7 +207,7 @@ img {
   font-weight: 500;
   font-size: 150px;
   color: #ffffff;
-  font-family: "rgve";
+  font-family: "Yesteryear", cursive;
 }
 #intro .main-text h1 span {
   color: #ffffff;
@@ -285,10 +289,16 @@ img {
   color: #fff;
 }
 #about {
-  background: url('../img/background/bg-1.jpg') center center no-repeat;
+  background: url('../img/background/bg-web.png') center center no-repeat;
   background-size: cover;
   color: #ffffff;
+
 }
+
+#about h1{
+  color: #fff;
+}
+
 #about .section-title span {
   color: #333333;
 }
