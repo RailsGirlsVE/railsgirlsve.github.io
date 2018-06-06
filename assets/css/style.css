@@ -964,10 +964,11 @@ img {
 }
 .cliente{
   margin:10px 0;
+  text-align: center;
 }
-#clients {
+#clients img{
   background-color: #fff;
-  width: 100%;
+  max-width: 100%;
   height: 2%;
   text-align: center;
 }
