@@ -115,7 +115,7 @@ img {
   background: #F15A24;
 }
 .btn-common:hover {
-  background: #585858;
+  background: #f57d4e;
 }
 #header .main-navigation {
   background: #ffffff;
@@ -362,12 +362,14 @@ img {
   padding: 5px;
   border: 1px solid #F3F3F3;
   position: relative;
+  text-align: center;
 }
 #portfolio .portfolio-items figure .img {
   position: relative;
 }
 #portfolio .portfolio-items figure .img img {
-  max-width: 50%;
+  max-width: 100%;
+  max-height: 100%
   height: auto;
   vertical-align: middle;
 }
@@ -430,6 +432,13 @@ img {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
   position: relative;
+  height: 90px;
+  width: 100%;
+  display: table;
+}
+.item-title{
+  display: table-cell;
+  	vertical-align: middle;
 }
 #portfolio .portfolio-items .item-description:after {
   border-color: #fff transparent;
