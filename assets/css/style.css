@@ -362,6 +362,7 @@ img {
   padding: 5px;
   border: 1px solid #F3F3F3;
   position: relative;
+  text-align: center;
 }
 #portfolio .portfolio-items figure .img {
   position: relative;
@@ -430,6 +431,13 @@ img {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
   position: relative;
+  height: 90px;
+  width: inherit;
+  display: table;
+}
+.item-title{
+  display: table-cell;
+  	vertical-align: middle;
 }
 #portfolio .portfolio-items .item-description:after {
   border-color: #fff transparent;
